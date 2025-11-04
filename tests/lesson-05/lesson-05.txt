@@ -1,0 +1,56 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì?
+Cấu trúc cơ bản bao gồm:
+- <html> Thẻ gốc của trang
+- <head> Chứa metadata: tiêu đề của trang, hiển thị Google
+- <body> Nội dung của cả website hiển thị
+- <div> Khối/container chung
+- <span> Inline container
+- <header>, <footer>, <nav>, <section>: Thẻ ngữ nghĩa
+
+2.Hãy mô tả cấu trúc html của 1 bảng (table)
+<table>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Họ tên</th>
+      <th>Tuổi</th>
+      <th>Địa chỉ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Nguyễn Văn A</td>
+      <td>25</td>
+      <td>Hà Nội</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trần Thị B</td>
+      <td>30</td>
+      <td>TP. HCM</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Lê Văn C</td>
+      <td>28</td>
+      <td>Đà Nẵng</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Tổng</td>
+      <td>83</td>
+      <td>3 người</td>
+    </tr>
+  </tfoot>
+</table>
+
+Thẻ <table> tạo bảng dữ liệu.
+- <thead> Chứa phần đầu bảng
+- <tbode> Chứa nội dung chính
+- <tfoot> Chứa phần chân bảng
+- <tr> Tạo hàng
+- <th> Tạo ô tiêu đề 
+- <td> Tạo ô dữ liệu
+Thuộc tính colspan dùng để gộp cột
