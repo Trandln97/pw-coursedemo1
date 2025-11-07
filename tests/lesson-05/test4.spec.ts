@@ -40,5 +40,5 @@ test('ex4.test', async ({ page }) => {
 
     await expect(page.locator('//li | //div[contains(text(),"note-content")]').filter({ hasText: 'một hoặc nhiều' })).toHaveCount(filtered.length);
 
-    console.log(`✅ Đã thêm ${notes.length} note và lọc được ${filtered.length} note chứa 'một hoặc nhiều'.`);
+    //console.log(`Đã thêm ${notes.length} note và lọc được ${filtered.length} note chứa 'một hoặc nhiều'.`);
 });
