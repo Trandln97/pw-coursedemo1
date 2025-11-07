@@ -7,8 +7,8 @@ test('Ex3.test', async ({ page }) => {
   await page.getByText('Bài học 3: Todo page').click();
 
   // Tạo 100 task
-  const input = page.locator('#new-task');
-  const addBtn = page.locator('button', { hasText: /add/i });
+  const input  = page.locator('//input[@id="new-task"]');
+  const addBtn = page.locator('//button[normalize-space()="Add Task"]');
 
   for (let i = 1; i <= 100; i++) {
     await input.fill(`Todo ${i}`);
