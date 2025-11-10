@@ -54,3 +54,5 @@ Thẻ <table> tạo bảng dữ liệu.
 - <th> Tạo ô tiêu đề 
 - <td> Tạo ô dữ liệu
 Thuộc tính colspan dùng để gộp cột
+
+
